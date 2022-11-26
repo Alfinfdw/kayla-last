@@ -184,12 +184,12 @@ fs.writeFileSync('./database/user.json', JSON.stringify(pendaftar, null, 2))
 
 if (isCmd && antiSpam.isFiltered(from) && !m.isGroup) {
 console.log(color('[SPAM]', 'red'), color(wib, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname))
-return m.reply('「 ❗ 」Sabar Bang 5 Detik/Command')
+return m.reply('「 ❗ 」Sabar Bby 5 Detik/Command')
 }
         
 if (isCmd && antiSpam.isFiltered(from) && m.isGroup) {
 console.log(color('[SPAM]', 'red'), color(wib, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname), 'in', color(groupName))
-return m.reply('「 ❗ 」Sabar Bang 5 Detik/Command')
+return m.reply('「 ❗ 」Sabar Bby 5 Detik/Command')
 }
 
 if (isCmd && !itsMeKayla) antiSpam.addFilter(from)
@@ -573,8 +573,8 @@ Otw Ultah Creator : ${kayhari} 𝑯𝒂𝒓𝒊 ${kayjam} 𝑱𝒂𝒎 ${kaymeni
 𝗞𝗮𝘆𝗹𝗮 𝗕𝗼𝘁
 𝙓𝙚𝙯𝙮 | 𝙓𝙚𝙮 𝙒𝙞𝙩𝙝 𝙕𝙮𝙠𝙪𝙖𝙣
 𝗨𝘀𝗲𝗿 𝗕𝗼𝘁`,
-mentions : [sender, botzkayla, mark],
-footer: `Created By @${botzkayla.split("@")[0]}
+mentions : [sender, botzniluh, mark],
+footer: `Created By @${botniluh.split("@")[0]}
 WhatsApp By @${mark.split("@")[0]}`,
 buttons: butlocNye,
 headerType: "LOCATION"
